@@ -9,23 +9,10 @@ myImage.onclick = function () {
     }
 };
 
-var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h2');
 
 function setUserName() {
-    var myName = prompt('Please enter your name.');
-    localStorage.setItem('name', myName);
-    myHeading.innerHTML = 'Hello, ' + myName;
+    var myName = document.getElementById('textBox');
+    myHeading.innerHTML = 'Hello, ' + myName.value;
 }
-
-if(!localStorage.getItem('name')) {
-    setUserName();
-} else {
-    var storedName = localStorage.getItem('sname');
-    myHeading.innerHTML = 'Hello, ' + storedName;
-}
-
-myButton.onClick = function () {
-    setUserName();
-};
 
