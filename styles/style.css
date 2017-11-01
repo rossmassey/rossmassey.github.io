@@ -4,4 +4,25 @@ p,ul,a {
 
 h1,h2 {
     font-family: 'Josefin Sans', sans-serif;
+	margin: 0 auto;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+
+html {
+	background-color: #bf1d26
+}
+
+body {
+	width: 600px;
+	margin: 0 auto;
+    background-color: #b3ffca;
+  	padding: 0 20px 20px 20px;
+  	border: 2px solid black;
+}
+
+img {
+	border: 2px solid black;
 }
