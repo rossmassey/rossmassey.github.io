@@ -1,9 +1,18 @@
+<!-- this is a comment -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My test page</title>
+    <meta name="author" content="Ross Massey">
+    <meta name="description" content="Website for Ross Massey">
 
+    <title>Ross Massey</title>
+
+    <meta property="og:image" content="images/cat.jpg">
+    <meta property="og:description" content="Website for Ross Massey">
+    <meta property="og:title" content="Ross Massey">
+
+    <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lora" rel="stylesheet">
 </head>
@@ -13,7 +22,7 @@
          width="200"
          height="200"
          alt="Grumpy Cat Image">
-    <p>My cat is <strong>very</strong> grumpy.</p>
+    <p>My <em>cat</em> is <strong>very</strong> grumpy.</p>
     <p>Here is a list:</p>
     <ul>
         <li>a</li>
@@ -21,12 +30,28 @@
         <li>c</li>
     </ul>
     <p>Did you like that list?</p>
+    <ol>
+        <li>Left</li>
+        <li>Right</li>
+        <li>Left</li>
+    </ol>
+    <p>How about that one?</p>
+    <dl>
+        <dt>cat</dt>
+        <dd>a furry creature</dd>
+        <dt>dog</dt>
+        <dd>a smelly creature</dd>
+    </dl>
+    <p>Here is some code:</p>
+    <code>return true;</code>
+    <p></p>
     <a href="http://www.google.com" title="Google" target="_blank">Google</a>
     <p></p>
-
     <input type="text" id="textBox">
     <button onclick="setUserName();">Enter name</button>
-
+    <p></p>
+    <input type="text" disabled>
+    <button disabled>This one is disabled</button>
     <script src="scripts/main.js"></script>
 </body>
 </html>
