@@ -1,5 +1,3 @@
-# My Page
+# List of Courses
 
-Initially used for learning HTML/CSS/etc.
-
-[Here is this page](rossmassey.github.io)
+List of all the courses I have taken
